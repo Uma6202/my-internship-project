@@ -19,6 +19,11 @@ st.set_page_config(page_title="FORESIGHT | Inventory Intelligence", layout="wide
 # ---------- Custom CSS ----------
 st.markdown("""
 <style>
+    /* Upar ke buttons chhupao */
+    [data-testid="stToolbar"] { display: none !important; }
+    [data-testid="stMainMenu"] { display: none !important; }
+    [data-testid="stAppDeployButton"] { display: none !important; }
+    [data-testid="stDecoration"] { display: none !important; }
     .main { padding-top: 1rem; }
 
     /* KPI card look */
